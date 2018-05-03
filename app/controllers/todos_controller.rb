@@ -29,7 +29,7 @@ class TodosController < ApplicationController
 			redirect_to todo_path(@todo)
 		else
 			render 'edit'
-		end	
+		end
 	end	
 	
 	private
